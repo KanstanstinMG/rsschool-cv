@@ -19,8 +19,10 @@ Hello everyone who opened this CV. It is important for me to get the opportuniti
 4. Git
 
 ## EDUCATION
-* College: Belarusian Naional Medical College - 2019 
-* Course QA Engineer: IT-Academy "BelHard" - 2022
+| Education| Graduation year | 
+| ------------------------------------------- | -----|
+| College: Belarusian Naional Medical College | 2019 |
+| Course QA Engineer: IT-Academy "BelHard"    | 2022 |
 
 ## LANGUAGES
 * Belarusian (native)
