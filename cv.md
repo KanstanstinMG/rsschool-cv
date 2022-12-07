@@ -1,5 +1,7 @@
 # Kanstantsin Minich
 
+![despicable me](img/photo6.png)
+
 ## MY CONTACTS
 * **Location**: Krakow, Poland
 * **Phone number**: +48 732 786 917
