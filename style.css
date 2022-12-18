@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #141C3A;
+    background: #FFFFFF;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+pre {
+    margin: 0;
+    padding: 0;
+}
+
+.headlines {
+    margin: 0;
+    padding-top: 47px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #E5EBF2;
+}
+
+.gray-headlines {
+    border-bottom: 1px solid #b1b8c1;
+}
+
+.paragraph-main-text  {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.first-header {
+    border-bottom: 1px solid #E5EBF2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #141C3A;
+    transition: text-shadow .3s;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 .65px #8428F8, 0 0 .65px #8428F8;
+}
+
+.offer {
+    padding-top: 135px;
+    text-align: center;
+}
+
+.my-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    width: 400px;
+}
+
+.text-second-header {
+    color: #535E88;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 132px;
+    text-align: center;
+}
+
+
+.gray-container {
+    background: #E5E5E5;
+}
+
+.text-about-me {
+    padding-top: 153px;
+    padding-bottom: 144px;
+    text-align: center;
+}
+
+.text-about-me h2 {
+    padding-bottom: 35px;
+}
+
+.text-about-me p {
+    line-height: 40px;
+}
+
+
+
+.skills-list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+}
+
+
+.footer-container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 20px;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.rss {
+    width: 121px;
+    height: 45px;
+    background-image: url(./img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
