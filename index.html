@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.ico">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="header">
+        <div class="first-header">
+            <div class="container header-container">
+                <div class="logo-name">
+                    <h2 class="logo-name-text"> Kanstantsin Minich </h2>
+                    <img src="img/photo6.png" alt="MY PHOTO" class="my-photo">
+                </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#my-contacts" class="nav-link"> MY CONTACTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about-me" class="nav-link">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#code" class="nav-link">CODE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#courses" class="nav-link">COURSES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">EDUCATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#english" class="nav-link">ENGLISH</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+        </div>
+        <div class="second-header">
+            <div class="container">
+                <div class="offer">
+                    <h1>Student of Rolling Scopes School</h1>
+                    <p class="paragraph-second-header">JavaScript Developer</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contacts" id="contacts">
+                        <div class="my-phone">
+                            <h2 class="text-phone"> Phone </h2>
+                            <p class="paragraph-second-header"> +48 732-786-917</p>
+                        </div>
+                    </div>
+                    <div class="E-mail" id="E-mail">
+                        <div class="E-mail">
+                            <h2 class="E-mail"> E-mail</h2>
+                            <p class="paragraph-second-header"> ksn.minich@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="my-github" id="my-github">
+                        <div class="my-github">
+                            <h2 class="my-github"> GitHub </h2>
+                            <p class="paragraph-second-header">
+                                <a href="https://github.com/KanstanstinMG" target="_blank">KanstanstinMG</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="gray-container">
+            <div class="container">
+                <section class="ABOUT-ME" id="ABOUT-ME">
+                    <div class="TEXT-ABOUT-ME">
+                        <h2>Hello! It's me Kanstantsin.</h2>
+                        <p>Hello everyone who opened this CV. It is important for me to get the opportunities that the IT field provides - a new profession, new acquaintances and the disclosure of my potential. My strengths are purposefulness, stress resistance, analytical mindset, sociability, teamwork and high responsibility. I will get as much knowledge and experience as possible from this course to apply it in the future.</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="my-skills">
+            <div class="container">
+                <section class="skills" id="skills">
+                    <div class="skills-container">
+                        <h2 class="headlines"> Skills</h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li class="skills-item">
+                            <p> CSS </p>
+                        </li>
+                        <li class="skills-item">
+                            <p> HTML </p>
+                        </li>
+                        <li class="skills-item">
+                            <p> JavaScript (Basic) </p>
+                        </li>
+                        <li class="skills-item">
+                            <p> Git </p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="gray-container">
+            <div class="container">
+                <section class="code" id="code">
+                    <h2 class="headlines gray-headlines"> Code </h2>
+                    <div class="my-code">
+                        <pre class="pre">
+                            <code>
+                              function isValidWalk(walk) {
+      
+                                let n = 0;
+                                let s = 0;
+                                let w = 0;
+                                let e = 0;
+                                
+                                for (let i = 0; i &lt; walk.length; i++) {
+                                  switch (walk[i]) {
+                                    case 'n':
+                                      n++;
+                                      break;
+                                    case 's':
+                                      s++;
+                                      break;
+                                    case 'w':
+                                      w++;
+                                      break;
+                                    case 'e':
+                                      e++;
+                                      break;
+                                  }
+                                }
+                                
+                                return n === s && w === e && walk.length === 10;
+                              }  
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            </div>   
+        </div>
+        <div class="my-projects">
+            <div class="container">
+                <section class="projects" id="projects">
+                    <div class="projects-container">
+                        <h2 class="headlines"> Projects </h2>
+                    </div>
+                    <div class="link-github">
+                        <p class="paragraph-main-text">
+                            <a href="https://kanstanstinmg.github.io/rsschool-cv/cv" target="_blank">GitHub</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="my-courses">
+            <div class="gray-container">
+                <div class="container">
+                    <section class="courses" id="courses">
+                        <div class="courses-container">
+                            <h2 class="headlines gray-container"> Courses </h2>
+                        </div>
+                        <p class="paragraph-main-text">
+                            <strong>IT-Academy "BelHard" :</strong>
+                            QA Engineer
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="my-education">
+                <div class="container">
+                    <section class="education" id="education">
+                        <div class="education-container">
+                            <h2 class="headlines"> Education </h2>
+                        </div>
+                        <p class="paragraph-main-text">
+                            <strong>College:</strong>
+                            "Belarusian National Medical College"
+                        </p>
+                    </section>
+                </div>
+        </div>
+        <div class="my-english">
+            <div class="gray-container">
+                <div class="container">
+                    <section class="english" id="english">
+                        <div class="english-container">
+                            <h2 class="headlines gray-container"> English </h2>
+                        </div>
+                        <p class="paragraph-main-text">
+                            Pre-intermediate
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-container">
+                <div>
+                    © 2022
+                    <a href="https://github.com/KanstanstinMG" class="github nav-link" target="_blank">KanstanstinMG</a>
+                </div>
+                <a href="https://rs.school/js/" class="rss" target="_blank"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
