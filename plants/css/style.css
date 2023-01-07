@@ -108,14 +108,17 @@ body{
     color: #010201;
 }
 
+
 /* Header styles start */
 
 .header{
     background-color: #EDF2EC;
-    position: fixed;
+    position: absolute;
+    height: 134px;
     top: 0;
     left: 0;
     width: 100%;
+    margin-bottom: 42px;
 }
 
 
@@ -192,5 +195,115 @@ body{
 /* Welcome styles start */
 .welcome{
     background-color: #EDF2EC;
+    padding-top: 182px;
+    position: absolute;
+    width: 100%;
+    height: 532px;
+    left: 0px;
+    top: 134px;
+    padding: 48px;
+}
+
+.intro__title{
+    position: absolute;
+    width: 549px;
+    height: 101px;
+    left: 782px;
+    top: 98px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+}
+
+.green-color{
+    color: #499A18;
+}
+
+.welcome__intro{
+    position: absolute;
+width: 525.44px;
+height: 105px;
+left: 782px;
+top: 241px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 35px;
+}
+
+.lrn__sub{
+    position: absolute;
+    width: 158px;
+    height: 44px;
+    left: 782px;
+    top: 394px;
+    border: 2px solid #E06733;
+    border-radius: 10px;   
+}
+
+.sub__text{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.lrn__sub:hover, .lrn__sub:focus, .lrn__sub:active{
+    background-color: #E06733;
+    color: white;
 }
 /* Welcome styles end */
+
+/* About styles start */
+
+.about{
+    position: absolute;
+    width: 1440px;
+    height: 666px;
+    left: 0px;
+    top: 666px;
+    background: #FFFFFF;
+}
+
+.about__title{
+    position: absolute;
+    width: 463px;
+    height: 102px;
+    left: 109px;
+    top: 161px;
+
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.brown-color{
+    color: #E06733;
+}
+
+.about__text{
+    position: absolute;
+    width: 605px;
+    height: 208px;
+    left: 109px;
+    top: 303px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.plants__about{
+    position: absolute;
+    width: 464px;
+    height: 479px;
+    left: 867px;
+    top: 93px;
+}
