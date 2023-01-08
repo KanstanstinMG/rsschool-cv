@@ -242,7 +242,8 @@ line-height: 35px;
     left: 782px;
     top: 394px;
     border: 2px solid #E06733;
-    border-radius: 10px;   
+    border-radius: 10px;
+    background-color: #EDF2EC;   
 }
 
 .sub__text{
@@ -306,4 +307,309 @@ line-height: 35px;
     height: 479px;
     left: 867px;
     top: 93px;
+}
+/*About styles end */
+
+/*service styles start */
+
+.service{
+    position: absolute;
+    width: 1510px;
+    height: 1300px;
+    left: 0px;
+    top: 1332px;
+    background: #EDF2EC;
+}
+
+.service__title{
+    position: absolute;
+    width: 306px;
+    height: 94px;
+    left: 109px;
+    top: 40px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+.garden__btn{
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 557px;
+    top: 69px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #EDF2EC;
+}
+
+.grd__text{
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+
+.garden__btn:hover, .garden__btn:focus, .garden__btn:active{
+    background-color: #E06733;
+    color: white;
+}
+
+.lawn__btn{
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 756px;
+    top: 69px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #EDF2EC;
+}
+
+.lwn__text{
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+
+.lawn__btn:hover, .lawn__btn:focus, .lawn__btn:active{
+    background-color: #E06733;
+    color: white;
+}
+
+.planting__btn{
+    position: absolute;
+    width: 161px;
+    height: 50px;
+    left: 955px;
+    top: 69px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background-color: #EDF2EC;
+}
+
+.plt__text{
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+}
+
+.planting__btn:hover, .planting__btn:focus, .planting__btn:active{
+    background-color: #E06733;
+    color: white;
+}
+
+.first__item__img{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+    left: 110px;
+    top: 224px;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+
+.item__title{
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 214px;
+    top: 584px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Inter';
+    color: #E06733;
+}
+
+.item__text{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 139.91px;
+    top: 618px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter';
+    color: #717171;
+}
+
+.second__item__img{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+    left: 556px;
+    top: 224px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.second__item__title{
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 676px;
+    top: 584px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-family: 'Inter';
+     color: #E06733;
+}
+
+.second__item__text{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 585.91px;
+    top: 618px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Inter';
+    color: #717171;
+}
+
+.third__item__img{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+    left: 1002px;
+    top: 224px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.third__item__title{
+    position: absolute;
+    width: 104px;
+    height: 24px;
+    left: 1114px;
+    top: 584px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.third__item__text{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 1031.91px;
+    top: 618px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.fourth__item__img{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+    left: 110px;
+    top: 729px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.fourth__item__title{
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 229px;
+    top: 1089px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.fourth__item__text{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 139.91px;
+    top: 1123px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.fifth__item__img{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+    left: 556px;
+    top: 729px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.fifth__item__title{
+    position: absolute;
+    width: 120px;
+    height: 24px;
+    left: 660px;
+    top: 1089px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.fifth__item__text{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 585.91px;
+    top: 1123px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.sixth__item__img{
+    position: absolute;
+    width: 329px;
+    height: 350px;
+    left: 1002px;
+    top: 729px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.sixth__item__title{
+    position: absolute;
+    width: 90px;
+    height: 24px;
+    left: 1121px;
+    top: 1089px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+}
+
+.sixth__item__text{
+    position: absolute;
+    width: 267.19px;
+    height: 20px;
+    left: 1031.91px;
+    top: 1123px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
 }
